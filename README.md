@@ -6,10 +6,14 @@
 - 导出豆瓣红星音乐列表
 - 下载所有红星音乐
 
+### 运行环境
+
+本脚本的运行环境为 Python 2.7
+
 ### 用法
 
 ```
-douban_downloader -u用户名 -p密码
+douban_downloader.py -u用户名 -p密码
 ```
 
 下载的音乐会保存在当前目录下的 download 子目录中：
